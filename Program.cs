@@ -91,19 +91,23 @@ namespace lesson5
             //Console.ReadKey();
 
 
+            //var Ismarrid = true;
+            //var message = "";
+
+
+            //if (Ismarrid)
+            //{
+            //    message = "You are big";
+            //}
+            //else
+            //{
+            //    message = "You are litter";
+            //}
+
             var Ismarrid = true;
             var message = "";
 
-
-            if (Ismarrid)
-            {
-                message = "You are big";
-            }
-            else
-            {
-                message = "You are litter";
-            }
-
+            message = Ismarrid ? "ok" : "bad";
             Console.WriteLine(message);
             Console.ReadKey();
 
